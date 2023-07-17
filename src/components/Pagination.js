@@ -10,7 +10,7 @@ const Paginations = (
   return(
     <div className="pagination-container">
       {pageArray.map((item)=>(
-        <div className="page-box" onClick={(e) => {setCurrentPage(e.target.id)}} id={item+1} key={item+1}>{item+1}</div>
+        <div className="pagination-box" onClick={(e) => {setCurrentPage(e.target.id)}} id={item+1} key={item+1}>{item+1}</div>
       ))}
     </div>
   )

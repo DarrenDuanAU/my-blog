@@ -1,7 +1,3 @@
-h1 {
-
-}
-
 .container {
   max-width: 80%;
   padding-left: 15px;
@@ -11,27 +7,43 @@ h1 {
   /* background-color: lightblue; */
 }
 
-.list-group-item {
-
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
-.page-container {
-  background-color: lightblue;
+
+.post {
+  /* background-color: #999; */
+  box-sizing: border-box;
+  padding: 10px 10px;
+  border: 1px solid #999;
+  margin: 10px 0px;
 }
 
 .pagination-container {
   display: flex;
-  width: 500px;
+  max-width: 100%;
   /* background-color: lightsalmon; */
   color:#439CEF;
   box-sizing: border-box;
 }
 
-.page-box {
+.pagination-box {
   height: 50px;
   width: 50px;
+  max-width: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid #999;
+}
+
+.pagination-box:hover {
+  cursor: pointer;
+}
+
+.pagination-box:active {
+  background-color: #999;
 }

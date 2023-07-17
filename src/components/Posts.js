@@ -9,7 +9,7 @@ const Posts = (props)=> {
   return(
     <ul>
       {dataArray.map((item) => (
-        <li key={item.id}>{item.title}</li>
+        <li className="post" key={item.id}>{item.title}</li>
       ))}
     </ul>
   )

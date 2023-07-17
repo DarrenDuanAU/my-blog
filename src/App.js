@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="container">
       <h1>My Blog</h1>
-      <Posts className="page-container" currentPosts = {currentPosts} loading={loading}/>
+      <Posts currentPosts = {currentPosts} loading={loading}/>
       <Paginations maxPages= {maxPages} setCurrentPage={setCurrentPage}/>
     </div>
   );

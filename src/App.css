@@ -1,0 +1,37 @@
+h1 {
+
+}
+
+.container {
+  max-width: 80%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  /* background-color: lightblue; */
+}
+
+.list-group-item {
+
+}
+
+.page-container {
+  background-color: lightblue;
+}
+
+.pagination-container {
+  display: flex;
+  width: 500px;
+  /* background-color: lightsalmon; */
+  color:#439CEF;
+  box-sizing: border-box;
+}
+
+.page-box {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #999;
+}
